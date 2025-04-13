@@ -1,0 +1,55 @@
+---
+# This is your Jekyll _config.yml setup for a personal site like Aki Nishimura's
+# Based on the Minimal Mistakes Jekyll theme
+
+# Site settings
+locale: "en-US"
+title: "Weiliang Cen"
+subtitle: "Enthusiatic Biostatistician"
+name: "Weiliang Cen"
+email: "wcen@usf.edu"
+description: >-  
+  A PhD candidate in Biostatistics passionate about healthcare research, data science, and statistical modeling.
+url: "https://your-username.github.io" # replace this with your GitHub Pages URL
+repository: "your-username/your-username.github.io"
+
+# Social media links
+social:
+  type: "Person"
+  links:
+    - "https://www.linkedin.com/in/cen2017/"
+    - "https://scholar.google.com/citations?user=mnG2CnIAAAAJ&hl=en&authuser=1"
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Blog"
+    url: /blog/
+  - title: "CV"
+    url: /cv/
+
+# Defaults for pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
